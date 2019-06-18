@@ -21,22 +21,14 @@ fetch(`../js/json/data.json`)
         document.getElementById('listing').innerHTML = outputTemplate;        
     },
     productTemplate:(data) => {
-      return `<div class="col-md-3 col-sm-6">
+      return `<div class="col-md-3 col-sm-6 pb-15">
         <div class="product-grid">
             <div class="product-image">
                 <a href="#">
                     <img class="pic-1" src="${data.imageUrl}">                    
                 </a>
                 <span class="product-new-label">sale</span>
-                <span class="product-discount-label">${data.starRating} *</span>
             </div>
-            <ul class="rating">
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star"></li>
-                <li class="fa fa-star disable"></li>
-            </ul>
             <div class="product-content">
                 <h3 class="title"><a href="#">${data.productName}</a></h3>
                 <div class="price">${data.price}
@@ -46,21 +38,7 @@ fetch(`../js/json/data.json`)
             </div>
         </div>
     </div>`
-    },filter:(id,divid)=>{
-    
-     document.getElementById(divid).checked ? listing.brandUpdate(id,true) : listing.brandUpdate(id,false);
-
-     let filterdProducts = []
-       products.forEach((product) => {
-          brandsArr.forEach(el=>{
-           if(el === product.brand){
-            filterdProducts.push(product) 
-           }
-          })
-        })
-        filterdProducts.length > 0 ? listing.createTemplate(filterdProducts):listing.createTemplate(products);
-      
-      },brandUpdate:(id,status) => {
+    },brandUpdate:(id,status) => {
         if(status){
           brandsArr.push(id)
         }else{

@@ -48,5 +48,115 @@
       "price": 35.95,
       "imageUrl": "http://bestjquery.com/tutorial/product-grid/demo9/images/img-4.jpg",
       "brand":13
+  },
+  {
+      "productId": 6,
+      "productName": "Video Game Controller",
+      "productCode": "GMG-0042",
+      "releaseDate": "October 15, 2015",
+      "description": "Standard two-button video game controller",
+      "price": 15,
+      "imageUrl": "http://bestjquery.com/tutorial/product-grid/demo9/images/img-4.jpg",
+      "brand":13
+  },
+  {
+      "productId": 6,
+      "productName": "Video Game Controller",
+      "productCode": "GMG-0042",
+      "releaseDate": "October 15, 2015",
+      "description": "Standard two-button video game controller",
+      "price": 25,
+      "imageUrl": "http://bestjquery.com/tutorial/product-grid/demo9/images/img-4.jpg",
+      "brand":13
+  },
+  {
+      "productId": 7,
+      "productName": "Video Game Controller",
+      "productCode": "GMG-0042",
+      "releaseDate": "October 15, 2015",
+      "description": "Standard two-button video game controller",
+      "price": 40.95,
+      "imageUrl": "http://bestjquery.com/tutorial/product-grid/demo9/images/img-4.jpg",
+      "brand":13
+  },
+  {
+      "productId": 8,
+      "productName": "Video Game Controller",
+      "productCode": "GMG-0042",
+      "releaseDate": "October 15, 2015",
+      "description": "Standard two-button video game controller",
+      "price": 75.95,
+      "imageUrl": "http://bestjquery.com/tutorial/product-grid/demo9/images/img-4.jpg",
+      "brand":13
+  },
+  {
+      "productId": 9,
+      "productName": "Video Game Controller",
+      "productCode": "GMG-0042",
+      "releaseDate": "October 15, 2015",
+      "description": "Standard two-button video game controller",
+      "price": 80.95,
+      "imageUrl": "http://bestjquery.com/tutorial/product-grid/demo9/images/img-4.jpg",
+      "brand":13
+  },
+  {
+      "productId": 10,
+      "productName": "Video Game Controller",
+      "productCode": "GMG-0042",
+      "releaseDate": "October 15, 2015",
+      "description": "Standard two-button video game controller",
+      "price": 100,
+      "imageUrl": "http://bestjquery.com/tutorial/product-grid/demo9/images/img-4.jpg",
+      "brand":13
+  },
+  {
+      "productId": 11,
+      "productName": "Video Game Controller",
+      "productCode": "GMG-0042",
+      "releaseDate": "October 15, 2015",
+      "description": "Standard two-button video game controller",
+      "price": 95,
+      "imageUrl": "http://bestjquery.com/tutorial/product-grid/demo9/images/img-4.jpg",
+      "brand":13
+  },
+  {
+      "productId": 12,
+      "productName": "Video Game Controller",
+      "productCode": "GMG-0042",
+      "releaseDate": "October 15, 2015",
+      "description": "Standard two-button video game controller",
+      "price": 60,
+      "imageUrl": "http://bestjquery.com/tutorial/product-grid/demo9/images/img-4.jpg",
+      "brand":13
+  },
+  {
+      "productId": 13,
+      "productName": "Video Game Controller",
+      "productCode": "GMG-0042",
+      "releaseDate": "October 15, 2015",
+      "description": "Standard two-button video game controller",
+      "price": 95,
+      "imageUrl": "http://bestjquery.com/tutorial/product-grid/demo9/images/img-4.jpg",
+      "brand":13
+  },
+  {
+      "productId": 14,
+      "productName": "Video Game Controller",
+      "productCode": "GMG-0042",
+      "releaseDate": "October 15, 2015",
+      "description": "Standard two-button video game controller",
+      "price": 15,
+      "imageUrl": "http://bestjquery.com/tutorial/product-grid/demo9/images/img-4.jpg",
+      "brand":13
+  },
+  {
+      "productId": 15,
+      "productName": "Video Game Controller",
+      "productCode": "GMG-0042",
+      "releaseDate": "October 15, 2015",
+      "description": "Standard two-button video game controller",
+      "price": 55,
+      "imageUrl": "http://bestjquery.com/tutorial/product-grid/demo9/images/img-4.jpg",
+      "brand":13
   }
 ]

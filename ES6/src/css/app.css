@@ -5,6 +5,10 @@
   padding-left: 3px;
 }
 
+.pb-15{
+  padding-bottom: 15px;
+}
+
 span.error {
   display: block;
   color: red;
