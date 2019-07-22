@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>POC</title>
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"  media="screen">
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+      <div class="row content">
+        <div class="col-md-3">
+
+        <div class="form-group">
+          <label>Search</label>
+            <input type="text" onkeyup="changeInput(this.value)" id="productNameSerch">
+            <ul id="result"></ul>
+        </div>
+
+            <!-- <div data-role="rangeslider">
+                <label for="price-min">Price:</label>
+                <input type="range" name="price-min" id="price-min" value="0" min="0" max="100" onchange="listing.filterPrice()">
+                <label for="price-max">Price:</label>
+                <input type="range" name="price-max" id="price-max" value="100" min="0" max="100" onchange="listing.filterPrice()">
+              </div> -->
+
+        </div>
+        <div class="col-md-9">
+          <div id="listing">
+          </div>
+        </div>
+        </div>
+      </div>
+  <!-- Load Babel -->
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
